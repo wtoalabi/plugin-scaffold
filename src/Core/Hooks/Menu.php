@@ -20,7 +20,7 @@
 				'title'      => 'Sample Menu',
 				'menu_title' => 'Sample Menu',
 				'capability' => 'manage_options',
-				'slug'       => 'sample_menu',
+				'slug'       => config( "plugin_page"),
 				'render'     => config( "plugin_path") . "Templates/sample_page.php",
 				'icon_url'   => "dashicons-networking",
 				'position'   => 1000

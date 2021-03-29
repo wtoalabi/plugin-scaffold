@@ -5,6 +5,7 @@
 	
 	function config($key){
 		$config = [
+			"plugin_page" => "plugin-page",
 			"plugin_version" => "0.0.1",
 			"rest_namespace" => "plugin-scaffold/v1/",
 			"controllers_path" => "App\Controllers",
