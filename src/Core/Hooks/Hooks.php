@@ -13,5 +13,6 @@
 			Scripts::Load();
 			Locale::Load();
 			Styles::Load();
+			Plugs::Load();
 		}
 	}
