@@ -12,5 +12,5 @@ files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(
 new Vue({
   store,
   vuetify,
-}).$mount('#app_dashboard');
+}).$mount('#change-this-to-your-unique-plugin-name');
 
