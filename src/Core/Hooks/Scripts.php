@@ -14,8 +14,6 @@
 			$name = config( "plugin" );
 			$version = config( "plugin_version" );
 			$path = config( "plugin_assets" ) . 'js/app.js';
-			$fontsPath = config( "plugin_assets" ) .'fonts/fonts.css';
-			wp_enqueue_style( $name,  $fontsPath, [],"0.0.1" , );
 			wp_enqueue_script( $name,$path , [], $version , true );
 			wp_localize_script( $name, "globals",[
 				'token'=>wp_create_nonce("wp_rest"),
